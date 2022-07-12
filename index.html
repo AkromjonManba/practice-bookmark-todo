@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super To-Do App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="btn-group">
+        <button class="all__listsBtn">All <strong class="all__lists">0</strong></button>
+        <button class="all_complatedBtn">Complated <strong class="all_complated">0</strong></button>
+        <button class="all_uncomplatedBtn">Uncomplated <strong class="all_uncomplated">0</strong></button>
+        <button class="remove_btn">Ramove all</button>
+        <button class="savedBookmark">Saved <i class="fa-solid fa-bookmark"></i></button>
+        <button class="showBtn">
+          Show bookmark
+        </button>
+      </div>
+      <form class="form" method="post" autocomplete="off">
+        <input class="input" type="text" placeholder="Todo..." />
+        <button class="btn" type="submit">Send</button>
+      </form>
+      <span class="msg"></span>
+      <ul class="list"></ul>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
